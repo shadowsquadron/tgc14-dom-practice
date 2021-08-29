@@ -3,6 +3,14 @@ let header = document.querySelector('h1');
 let important = document.querySelector('#important');
 let todo = document.querySelector('li.todo');
 
+header.innerHTML="Hello World"
+important.style.backgroundColor="red"
+todo.style.fontSize="16px"
+todo.style.fontFamily="Verdana"
+
+
+
+
 // LEAVE THE BELOW ALONE! DON'T TOUCH
 try {
    module.exports = exports = {header, important, todo};
